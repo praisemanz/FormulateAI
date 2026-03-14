@@ -255,7 +255,7 @@ function Home() {
   }
 
   return (
-    <div className="formulate ${darkMode?'dark-mode':}''}`}min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col items-center justify-center p-4">
+    <div className={`formulate ${darkMode ? 'dark-mode' : ''} min-h-screen bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col items-center justify-center p-4`}>
       <header ref={headerRef} className="app-header mb-8">
       <a href="/" className="block">
       <div className="logo flex items-center space-x-2">

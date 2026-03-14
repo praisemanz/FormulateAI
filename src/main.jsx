@@ -8,13 +8,14 @@ import "@shopify/polaris/build/esm/styles.css";
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 
 import { AppProvider } from "@shopify/polaris";
+import enTranslations from "@shopify/polaris/locales/en.json";
 
 const convex = new ConvexReactClient(import.meta.env.VITE_CONVEX_URL);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ConvexProvider client={convex}>
-      <AppProvider>
+      <AppProvider i18n={enTranslations}>
         <App />
       </AppProvider>
     </ConvexProvider>

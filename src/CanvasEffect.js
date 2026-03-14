@@ -23,7 +23,7 @@ const CanvasEffect = () => {
 
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, width, height);
-e
+
     const handleResize = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
