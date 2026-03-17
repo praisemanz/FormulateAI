@@ -1,12 +1,4 @@
-import { useState, useRef } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./index.css";
-import { useQuery } from "convex/react";
-import { api } from "../convex/_generated/api";
-import { useMutation } from "convex/react";
-
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/home";
